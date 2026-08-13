@@ -1,13 +1,13 @@
 public class ArraysPractice3 {
 
     public static void main(String args[]) {
-        int[][] arr= new int[4][];// allocation
+        int[][] arr = new int[4][];// allocation
 
         // initialization
         int[][] brr = {
                 { 1, 2 },
                 { 2, 3, 7, 8, 9 },
-                { 3, 5, 4, 6, 2, 1, 22, 6, 4, 8 },
+                { 3, 5, 4, },
                 { 1 }
         };
 

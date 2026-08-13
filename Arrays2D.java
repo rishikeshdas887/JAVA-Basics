@@ -16,7 +16,8 @@ public class Arrays2D {
         // System.out.println(brr[3][1]);
         //using nested loop
         int rowLength=brr.length;
-        int colLength=brr[1].length;
+        // int colLength=brr[1].length; //works when col elements =row elements 
+        int colLength=brr[rowLength].length;
         for(int row=0;row<=rowLength-1;row++){
              for(int col=0;col<=colLength-1;col++){
                 System.out.print(brr[row][col]+" ");
