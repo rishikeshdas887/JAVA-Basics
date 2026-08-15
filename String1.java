@@ -3,10 +3,10 @@ public class String1 {
         String firstName = "Love";
         String lastName = new String("babbar");
         String name1 = "love";
-        String name2 = "rishi";
+        String name2 = "LOVE";
 
-        if (name1.equals(name2)) {
-            System.out.println(name1 + " " + name2);
+        if (name1.equalsIgnoreCase(name2)) {
+            System.out.println("BOTH ARE EQUAL");
         } else {
             System.out.println("Both strings are equal");
         }
